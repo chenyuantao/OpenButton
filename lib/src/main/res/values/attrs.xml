@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 通用的带有shape效果的TextView -->
+    <declare-styleable name="OpenButton">
+        <!-- 填充色 -->
+        <attr name="solidColor" format="color"/>
+        <!-- 边框色 -->
+        <attr name="strokeColor" format="color"/>
+        <!-- 按下填充色 -->
+        <attr name="solidTouchColor" format="color"/>
+        <!--- 按下边框色 -->
+        <attr name="strokeTouchColor" format="color"/>
+        <!-- 文字按下颜色 -->
+        <attr name="textTouchColor" format="color"/>
+        <!-- 边框宽度 -->
+        <attr name="strokeWidth" format="integer"/>
+        <!-- 圆角 -->
+        <attr name="radius" format="dimension"/>
+        <attr name="topLeftRadius" format="dimension"/>
+        <attr name="topRightRadius" format="dimension"/>
+        <attr name="bottomLeftRadius" format="dimension"/>
+        <attr name="bottomRightRadius" format="dimension"/>
+        <!-- 虚线的间隙 -->
+        <attr name="dashGap" format="dimension"/>
+        <!-- 虚线的宽度 -->
+        <attr name="dashWidth" format="dimension"/>
+        <!-- shape类型 -->
+        <attr name="shapeTpe" format="enum">
+            <enum name="rectangle" value="0"/>
+            <enum name="oval" value="1"/>
+            <enum name="line" value="2"/>
+            <enum name="ring" value="3"/>
+        </attr>
+    </declare-styleable>
+
+
+</resources>
